@@ -1,4 +1,4 @@
-package com.rbabaei.borutoapp
+package com.rbabaei.borutoapp.ui
 
 import android.os.Bundle
 import androidx.activity.ComponentActivity
@@ -7,6 +7,7 @@ import androidx.navigation.NavHostController
 import androidx.navigation.compose.rememberNavController
 import com.rbabaei.borutoapp.navigation.SetupNavGraph
 import com.rbabaei.borutoapp.ui.theme.BorutoAppTheme
+
 import dagger.hilt.android.AndroidEntryPoint
 
 @AndroidEntryPoint

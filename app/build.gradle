@@ -9,12 +9,12 @@ plugins {
 
 android {
     namespace 'com.rbabaei.borutoapp'
-    compileSdk 32
+    compileSdk 33
 
     defaultConfig {
         applicationId "com.rbabaei.borutoapp"
         minSdk 21
-        targetSdk 32
+        targetSdk 33
         versionCode 1
         versionName "1.0"
 
@@ -122,4 +122,6 @@ dependencies {
     testImplementation 'junit:junit:4.13.2'
     testImplementation "org.jetbrains.kotlin:kotlin-test-junit:$kotlin_version"
     testImplementation "org.jetbrains.kotlinx:kotlinx-coroutines-test:1.6.1"
+
+    implementation "androidx.compose.material3:material3:1.1.0-alpha01"
 }

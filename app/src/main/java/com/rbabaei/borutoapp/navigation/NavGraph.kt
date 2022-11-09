@@ -7,7 +7,7 @@ import androidx.navigation.NavType
 import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
 import androidx.navigation.navArgument
-import com.rbabaei.borutoapp.presentation.screens.splash.SplashScreen
+import com.rbabaei.borutoapp.ui.splash.SplashScreen
 import com.rbabaei.borutoapp.util.Constants.DETAILS_ARGUMENT_KEY
 
 @Composable
